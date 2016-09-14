@@ -250,6 +250,8 @@ rules:
   no-label-var: error
   # disallow specified global variables
   no-restricted-globals: 'off'
+  # disallow certain properties on certain objects
+  no-restricted-properties: 'off'
   # disallow `var` declarations from shadowing variables in the outer scope
   no-shadow: error
   # disallow identifiers from shadowing restricted names
@@ -292,8 +294,6 @@ rules:
   no-process-exit: error
   # disallow specified modules when loaded by `require`
   no-restricted-modules: 'off'
-  # disallow certain properties on certain objects
-  no-restricted-properties: 'off'
   # disallow synchronous methods
   no-sync: 'off'
 
